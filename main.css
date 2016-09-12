@@ -56,7 +56,7 @@ a {
   color: white;
   background: #b2b2b2 url(./img/intro-bg.png) no-repeat center center;
   background-size: cover;
-  padding: 20px 0;
+  padding: 20px 0 50px 0;
 }
 
 .nav-container > ul {
@@ -128,4 +128,26 @@ a {
 
 .main-header {
   text-transform: uppercase;
+}
+
+.info-container {
+  background-color: #512e92;
+  padding-bottom: 40px;
+}
+
+.intro-logo {
+  max-width: 100%;
+}
+
+.sfv-logo {
+  margin-bottom: 20px;
+}
+
+.info-paragraphs {
+  margin-top: 40px;
+}
+
+.elim-container {
+  background: #b2b2b2 url(./img/intro-bg.png) no-repeat center center;
+  background-size: cover;
 }
