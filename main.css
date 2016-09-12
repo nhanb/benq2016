@@ -7,6 +7,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #512e92;
+}
+
 .icon {
   display: inline-block;
   width: 1em;
@@ -30,9 +34,20 @@ a {
   border: 2px solid #512e92;
 }
 
+.btn-primary:hover {
+  background-color: white;
+  border-color: white;
+  color: #512e92;
+}
+
 .btn-default {
   background: transparent;
   border: 2px solid white;
+}
+
+.btn-default:hover {
+  border-color: white;
+  background-color: white;
 }
 
 .navbar {
@@ -150,4 +165,63 @@ a {
 .elim-container {
   background: #b2b2b2 url(./img/intro-bg.png) no-repeat center center;
   background-size: cover;
+}
+
+.section-header {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* http://stackoverflow.com/a/22603610 */
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 2px;
+  background: white;
+}
+
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.box {
+  min-height: 200px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid white;
+}
+
+.box:hover {
+  border: 5px solid #512e92;
+  background-color: #512e92;
+}
+
+.box-title {
+  font-weight: bold;
+  text-transform: uppercase;
 }
