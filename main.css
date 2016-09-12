@@ -1,21 +1,54 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 a {
   color: white;
 }
 
-.intro-row {
-  height: 200px;
-  font-size: 12px;
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 1200px) {
-  .intro-row {
-    font-size: 14px;
-  }
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px 10px;
+}
+
+.btn-primary {
+  background: #512e92;
+  border: 2px solid #512e92;
+}
+
+.btn-default {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.navbar {
+  margin-top: 150px;
+}
+
+.navbar-toggle {
+  border-color: #ddd;
+}
+
+.navbar-toggle:hover {
+  background-color: #ddd;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #888;
 }
 
 .intro-header {
@@ -25,21 +58,73 @@ a {
   padding: 20px 0;
 }
 
-.nav-container {
-  margin-top: 100px;
-  transform: translateY(-50%);
-}
-
 .nav-container > ul {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
 
 .tourney-logo {
+  margin-top: -210px;
   text-align: center;
 }
 
 .tourney-logo > img {
-  max-height: 200px;
+  margin-bottom: 30px;
+  max-height: 300px;
   max-width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .tourney-logo {
+    margin-top: -160px;
+  }
+
+  .tourney-logo > img {
+    max-height: 180px;
+  }
+
+  .navbar {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tourney-logo {
+    margin-top: -270px;
+  }
+
+  .tourney-logo > img {
+    max-height: 200px;
+    margin-bottom: 70px;
+  }
+
+  .navbar {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tourney-logo {
+    margin-top: 0;
+  }
+
+  .tourney-logo > img {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    margin-top: 0;
+  }
+
+  .nav-container > ul.left {
+    border-bottom: none;
+  }
+
+  .nav-container > ul.right {
+    border-top: none;
+  }
+}
+
+.main-header {
+  text-transform: uppercase;
 }

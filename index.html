@@ -9,10 +9,13 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>BenQ Championship 2016</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./vendor/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -32,34 +35,64 @@
 
   <body>
 
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+      <symbol id="icon-play2" viewBox="0 0 32 32">
+      <title>play2</title>
+      <path class="path1" d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13zM12 9l12 7-12 7z"></path>
+      </symbol>
+      </defs>
+    </svg>
+
     <div class="intro-header">
-      <div class="container">
 
-        <div class="row intro-row">
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <div class="navbar-header">
+            <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-4 nav-container">
-            <ul class="nav navbar-nav navbar-left">
+          <div id="navbar" class="navbar-collapse collapse nav-container">
+            <ul class="nav navbar-nav left">
               <li><a href="#thong-tin">THÔNG TIN</a></li>
               <li><a href="#vong-loai">VÒNG LOẠI</a></li>
               <li><a href="#chung-ket">CHUNG KẾT</a></li>
             </ul>
-          </div>
+            <ul class="nav navbar-nav navbar-right right">
+              <li><a href="#giai-thuong">GIẢI THƯỞNG</a></li>
+              <li><a href="#the-thuc">THỂ THỨC</a></li>
+              <li><a href="#live-stream">LIVE STREAM</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 tourney-logo hidden-sm hidden-xs">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-sm-12 tourney-logo">
             <img src="./img/tourney-logo.png" alt="logo">
+
+            <h1 class="main-header">
+              Giải đấu Street Fighter toàn quốc lớn nhất 2016
+            </h1>
+
+            <button class="btn btn-default">
+              <svg class="icon icon-play2"><use xlink:href="#icon-play2"></use></svg>
+              Trailer
+            </button>
+            <button class="btn btn-primary">Tham gia ngay</button>
           </div>
+        </div>
+      </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-4 nav-container">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#thong-tin">THÔNG TIN</a></li>
-              <li><a href="#vong-loai">VÒNG LOẠI</a></li>
-              <li><a href="#chung-ket">CHUNG KẾT</a></li>
-            </ul>
-          </div>
-
-        </div> <!-- /.row -->
-
-      </div><!-- /.container -->
     </div>
 
 
@@ -67,7 +100,10 @@
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+              integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+              crossorigin="anonymous">
+      </script>
 
       <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
       <script src="./vendor/ie10-viewport-bug-workaround.js"></script>
