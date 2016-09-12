@@ -35,8 +35,13 @@
 
   <body>
 
+
     <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
+      <symbol id="icon-user" viewBox="0 0 25 32">
+      <title>user</title>
+      <path class="path1" d="M25.143 25.089q0 2.143-1.304 3.384t-3.464 1.241h-15.607q-2.161 0-3.464-1.241t-1.304-3.384q0-0.946 0.063-1.848t0.25-1.946 0.473-1.938 0.768-1.741 1.107-1.446 1.527-0.955 1.991-0.357q0.161 0 0.75 0.384t1.33 0.857 1.929 0.857 2.384 0.384 2.384-0.384 1.929-0.857 1.33-0.857 0.75-0.384q1.089 0 1.991 0.357t1.527 0.955 1.107 1.446 0.768 1.741 0.473 1.938 0.25 1.946 0.063 1.848zM19.429 9.143q0 2.839-2.009 4.848t-4.848 2.009-4.848-2.009-2.009-4.848 2.009-4.848 4.848-2.009 4.848 2.009 2.009 4.848z"></path>
+      </symbol>
       <symbol id="icon-play2" viewBox="0 0 32 32">
       <title>play2</title>
       <path class="path1" d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13zM12 9l12 7-12 7z"></path>
@@ -154,48 +159,57 @@
               Vòng loại
             </h2>
             <div class="strike">
-              <span>punch</span>
+              <span><img src="./img/punch.png" alt="p"></span>
             </div>
           </div>
         </div><!--/.row -->
 
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
+            <div class="box hover-box">
               <div class="box-title">Hồ Chí Minh #1</div>
               <p>18.9.2016</p>
-              <p>icon</p>
+              <p>
+                <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+                <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+              </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
+            <div class="box hover-box">
               <div class="box-title">Hà Nội</div>
               <p>2.10.2016</p>
-              <p>icon</p>
+              <p><svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg></p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
+            <div class="box hover-box">
               <div class="box-title">Hồ Chí Minh #2</div>
-              <p>???????</p>
-              <p>icon</p>
+              <p>30.10.2016</p>
+              <p>
+                <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+                <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+              </p>
             </div>
           </div>
         </div><!--/.row -->
 
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
+            <div class="box hover-box">
               <div class="box-title">Hồ Chí Minh #3</div>
               <p>13.11.2016</p>
-              <p>icon</p>
+              <p>
+                <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+                <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+              </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="box">
+            <div class="box hover-box">
               <div class="box-title">Hồ Chí Minh #4</div>
               <p>20.11.2016</p>
-              <p>icon</p>
+              <p><svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg></p>
             </div>
           </div>
         </div><!--/.row -->
@@ -204,6 +218,136 @@
     </div><!--/.container-fluid -->
 
 
+    <div class="container-fluid finals-container">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-header">
+            <h2>
+              Chung kết
+            </h2>
+            <div class="strike">
+              <span><img src="./img/punch.png" alt="p"></span>
+            </div>
+          </div>
+        </div><!--/.row -->
+
+        <div class="row">
+          <div class="infinity-logo col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <img src="./img/infinity-logo.png" alt="infinity">
+          </div>
+          <div class="finals-info
+                      col-lg-7 col-md-7 col-sm-7 col-xs-12 col-lg-offset-1
+                      col-md-offset-1 col-sm-offset-1 col-xs-offset-0">
+            <p>
+            20.11.2016 (Chủ Nhật)<br>
+            &diams;<br>
+            13:00<br>
+            &diams;<br>
+            Infinity Game Zone Phú Thọ<br>
+            <span class="venue-address">219 Lý Thường Kiệt, P.15, Q.11, HCM</span>
+            </p>
+          </div>
+        </div><!--/.row -->
+
+      </div><!--/.container -->
+
+      <div class="row">
+        <div class="finals-header">Sự kiện chính</div>
+      </div><!--/.row -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 top-eight">
+            <img src="./img/sfv-logo.png" alt="sfv">
+            <h3>TOP 8</h3>
+          </div>
+        </div><!--/.row -->
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+        </div><!--/.row -->
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="box box-question">
+              ?
+            </div>
+          </div>
+        </div><!--/.row -->
+      </div>
+
+      <div class="row">
+        <div class="finals-header">Sự kiện phụ</div>
+      </div><!--/.row -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box box-game">
+              <img class="kof-logo" src="./img/kof-logo.png" alt="">
+              <div class="reg-button">
+                <a class="btn btn-default btn-sharp" href="#">Thể lệ & Đăng ký</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box box-game">
+              <img src="./img/bb-logo.png" alt="">
+              <div class="reg-button">
+                <a class="btn btn-default btn-sharp" href="#">Thể lệ & Đăng ký</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box box-game">
+              <span>
+                <img src="./img/chun.png" alt=""><br>
+                <img class="cosplay-logo" src="./img/cosplay.png" alt="">
+              </span>
+              <div class="reg-button">
+                <a class="btn btn-default btn-sharp" href="#">Thể lệ & Đăng ký</a>
+              </div>
+            </div>
+          </div>
+        </div><!--/.row -->
+      </div>
+
+    </div><!--/.container-fluid -->
 
     <!-- Bootstrap core JavaScript
       ================================================== -->

@@ -29,6 +29,10 @@ a:hover {
   margin: 10px 10px;
 }
 
+.btn.btn-sharp {
+  border-radius: 0;
+}
+
 .btn-primary {
   background: #512e92;
   border: 2px solid #512e92;
@@ -165,6 +169,7 @@ a:hover {
 .elim-container {
   background: #b2b2b2 url(./img/intro-bg.png) no-repeat center center;
   background-size: cover;
+  padding: 40px 0;
 }
 
 .section-header {
@@ -216,7 +221,7 @@ a:hover {
   border: 5px solid white;
 }
 
-.box:hover {
+.hover-box:hover {
   border: 5px solid #512e92;
   background-color: #512e92;
 }
@@ -224,4 +229,106 @@ a:hover {
 .box-title {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.finals-container {
+  background: #512e92;
+  padding: 40px 0;
+}
+
+.infinity-logo {
+  text-align: center;
+}
+
+.infinity-logo > img {
+  max-height: 250px;
+}
+
+.finals-info {
+  font-size: 24px;;
+  font-weight: bold;
+}
+
+.venue-address {
+  font-size: 20px;
+}
+
+.finals-header {
+  margin: 40px 0;
+  padding: 15px 0 15px 100px;
+  background-color: white;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #512e92;
+}
+
+.top-eight {
+  text-align: center;
+}
+
+.top-eight > img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.top-eight > h3 {
+  margin-top: -100px;
+  margin-bottom: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow:
+   -3px -3px 0 #512e92,
+    3px -3px 0 #512e92,
+    -3px 3px 0 #512e92,
+     3px 3px 0 #512e92;
+}
+
+.box-question {
+  font-size: 90px;
+}
+
+.box-game img {
+  max-width: 100%;
+}
+
+.box-game > span {
+  display: inline-block
+  height: 100%;
+  vertical-align: middle;
+}
+
+.box-game {
+  height: 280px;
+}
+
+.reg-button {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+}
+
+.reg-button > .btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.kof-logo { /* fuck */
+  margin-top: 20px;
+}
+
+.cosplay-logo { /* I'm so sorry... */
+  margin-top: -130px;
+}
+
+@media (max-width: 767px) {
+  .box-game {
+    height: auto;
+  }
+
+  .reg-button {
+    position: static;
+  }
 }
