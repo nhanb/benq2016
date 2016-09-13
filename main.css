@@ -418,3 +418,11 @@ a:hover {
 .rules-text > p {
   margin-bottom: 15px;
 }
+
+.stream-container {
+  background-color: #512e92;
+}
+
+th {
+  font-weight: bold;
+}
