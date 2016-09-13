@@ -175,7 +175,7 @@ a:hover {
 .section-header {
   font-weight: bold;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   margin-top: 20px;
 }
 
@@ -401,4 +401,20 @@ a:hover {
 
 .other-prize {
   margin-top: 30px;
+}
+
+.rules-container {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.rules-text {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: -15px;
+}
+
+.rules-text > p {
+  margin-bottom: 15px;
 }
