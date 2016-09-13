@@ -421,8 +421,70 @@ a:hover {
 
 .stream-container {
   background-color: #512e92;
+  padding-bottom: 40px;
+}
+
+.stream-link {
+  text-decoration: none;
+}
+.stream-link:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 th {
   font-weight: bold;
+}
+
+.about-container {
+  color: #333;
+  background-color: #f4f4f4;
+  padding-bottom: 40px;
+}
+.about-container h2 {
+  color: #512e92;
+}
+.about-container .strike > span:before,
+.about-container .strike > span:after {
+  background: #512e92;
+}
+
+.credits {
+  text-align: center;
+}
+
+.about-header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about-img {
+  max-height: 150px;
+  max-width: 100%;
+  margin: 15px 15px 25px 15px;
+}
+
+hr {
+  margin: 0;
+  background-color: #512e92;
+  height: 15px;
+}
+
+.footer-container {
+  padding-top: 40px;
+  background-color: #f4f4f4;
+  text-align: center;
+  color: #333;
+}
+
+.footer img {
+  max-width: 100%;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.social-img {
+  margin: 20px 10px;
 }
