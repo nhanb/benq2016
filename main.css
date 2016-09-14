@@ -64,6 +64,12 @@ h2 {
   background-color: white;
 }
 
+.btn-default:hover[disabled="disabled"] {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
 .navbar {
   font-weight: 300;
   margin-top: 150px;
@@ -169,6 +175,7 @@ h2 {
 
 .intro-logo {
   max-width: 100%;
+  margin-top: 10px;
 }
 
 .info-paragraphs {
@@ -541,14 +548,15 @@ hr {
   height: 100%;
 }
 
+@media (min-width: 768px) {
+  .reflect {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+  }
 
-.reflect {
-  display: block;
-  margin-bottom: 20px;
-  position: relative;
-  -webkit-box-reflect: below 5px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
-}
-
-.reflect img {
-  z-index: -1;
+  .reflect img {
+    z-index: -1;
+  }
 }
