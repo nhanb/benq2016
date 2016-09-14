@@ -94,11 +94,11 @@
               Giải đấu Street Fighter toàn quốc lớn nhất 2016
             </h1>
 
-            <button class="btn btn-default">
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#trailer-modal">
               <svg class="icon icon-play2"><use xlink:href="#icon-play2"></use></svg>
               Trailer
             </button>
-            <button class="btn btn-primary">Tham gia ngay</button>
+            <a class="btn btn-primary">Tham gia ngay</a>
           </div>
         </div>
       </div><!--/.container-fluid -->
@@ -639,6 +639,20 @@
       </div>
     </div>
 
+    <div class="modal fade" id="trailer-modal" tabIndex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="video-wrapper">
+              <iframe src=""
+                id="player" allowFullScreen="1" frameBorder="0">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
@@ -650,5 +664,6 @@
 
       <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
       <script src="./vendor/ie10-viewport-bug-workaround.js"></script>
+      <script src="./main.js"></script>
   </body>
 </html>
