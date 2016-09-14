@@ -180,7 +180,7 @@ h2 {
 }
 
 .elim-container {
-  background: #512e92 url(./img/elim-bg.png) no-repeat center center;
+  background: #512e92 url(./img/elim-bg.jpg) no-repeat center center;
   background-size: cover;
   padding: 40px 0;
 }
@@ -359,7 +359,7 @@ h2 {
 }
 
 .prize-container {
-  background: #512e92 url(./img/prize-bg.png) no-repeat center center;
+  background: #512e92 url(./img/prize-bg.jpg) no-repeat center center;
   background-size: cover;
   padding: 40px 0;
 }
