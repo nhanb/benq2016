@@ -583,3 +583,36 @@ hr {
     z-index: -1;
   }
 }
+
+.ended {
+  color: white;
+  padding: 6px 30px;
+  margin: 10px;
+  opacity: .65;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.box-finalist {
+  position: relative;
+  background-size: cover;
+}
+
+.box-finalist > span {
+  position: absolute;
+  bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+  left: 15px;
+  right: 15px;
+  font-weight: 700;
+  text-shadow: 0 0 1em black;
+}
+
+.box-mika {
+  background: url('./img/chars/mika.jpg');
+}
+
+.box-ken {
+  background: url('./img/chars/ken.jpg');
+}
