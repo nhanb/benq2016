@@ -402,6 +402,11 @@ h2 {
   padding: 20px 10px;
 }
 
+.prize-description a {
+  color: #333;
+  font-weight: bold;
+}
+
 .other-prize-description {
   height: 130px;
 }
@@ -631,4 +636,12 @@ hr {
 
 .box-alex {
   background: url('./img/chars/alex.jpg');
+}
+
+.box-guile {
+  background: url('./img/chars/guile.jpg');
+}
+
+.box-urine {
+  background: url('./img/chars/urine.jpg');
 }
